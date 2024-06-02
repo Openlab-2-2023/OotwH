@@ -43,7 +43,7 @@
         }
       
     </style>
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </head>
 <body>
 
@@ -67,14 +67,28 @@
    
 
 </html>
-<div class="wrapper">
-    <span>&#128514;</span>
-    <p id="joke"></p>
-    <button id="btn">Get Random Joke</button>
+
+
+
+
+<div class="container">
+    <h1>Random Sentence Generators</h1>
+    <div class="generator">
+        <h2>Generator 1</h2>
+        <button onclick="generateSentence('sentence1', sentences1)">Generate Sentence</button>
+        <p id="sentence1"></p>
+    </div>
+    <div class="generator">
+        <h2>Generator 2</h2>
+        <button onclick="generateSentence('sentence2', sentences2)">Generate Sentence</button>
+        <p id="sentence2"></p>
+    </div>
+    <div class="generator">
+        <h2>Generator 3</h2>
+        <button onclick="generateSentence('sentence3', sentences3)">Generate Sentence</button>
+        <p id="sentence3"></p>
+    </div>
 </div>
-
-
-
 
 
 
