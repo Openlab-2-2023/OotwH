@@ -7,13 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet" >
     <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
+        
         header {
             background-color: #5c1f8c; 
             color: white;
@@ -71,29 +65,14 @@
 
 
 
-<div class="container">
-    <h1>Random Sentence Generators</h1>
-    <div class="generator">
-        <h2>Generator 1</h2>
-        <button onclick="generateSentence('sentence1', sentences1)">Generate Sentence</button>
-        <p id="sentence1"></p>
-    </div>
-    <div class="generator">
-        <h2>Generator 2</h2>
-        <button onclick="generateSentence('sentence2', sentences2)">Generate Sentence</button>
-        <p id="sentence2"></p>
-    </div>
-    <div class="generator">
-        <h2>Generator 3</h2>
-        <button onclick="generateSentence('sentence3', sentences3)">Generate Sentence</button>
-        <p id="sentence3"></p>
+<div id="loadingScreen" class="container">
+    <div class="ufo">
+        <div class="alien">
+            <div class="details"></div>
+            <div class="mouth"></div>
+        </div>
     </div>
 </div>
-
-
-
-
-
-
+<div id="mainContent" style="display: none;">
 </body>
 </html>
