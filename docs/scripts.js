@@ -12,3 +12,4 @@ document.addEventListener("DOMContentLoaded", function() {
         mainContent.style.display = 'block';
     }, 3000); // Adjust the timeout duration as needed
 });
+
