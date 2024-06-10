@@ -171,5 +171,8 @@ body {
 @media screen and (min-width: 700px) {
   .container {
     font-size: 20px;
+    background-color: #5c1f8c;
+    width: 100%;
+
   }
 }
