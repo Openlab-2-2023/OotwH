@@ -56,12 +56,18 @@
     <a href="#Random">Random</a>
 
 </nav>
-
-
-<div id="joke-container">
-    <p id="joke">Kliknite na tlačidko pre smiech!😂</p>
+<div class="container">
+    <p id="joke">Kliknite na tlačidlo!😂</p>
+    <button id="joke-button">Klikni ma!</button>
+    <div class="rating-container">
+        <button class="rating-button" data-rating="1" onclick="rateJoke(1)">😂</button>
+        <button class="rating-button" data-rating="2" onclick="rateJoke(2)">😊</button>
+        <button class="rating-button" data-rating="3" onclick="rateJoke(3)">😐</button>
+        <button class="rating-button" data-rating="4" onclick="rateJoke(4)">😒</button>
+        <button class="rating-button" data-rating="5" onclick="rateJoke(5)">😠</button>
+    </div>
 </div>
-<button id="joke-button">Klikni ma!</button>
+
 
 
 </html>

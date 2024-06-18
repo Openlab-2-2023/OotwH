@@ -60,13 +60,19 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
-
-<div id="joke-container">
-    <p id="joke">Kliknite na tlačidko, ak ste pripravený na čierny humor😂</p>
-
+<div class="container">
+    <div id="joke-container" class="joke-section">
+        <p id="joke">Kliknite na tlačidlo na čierny humor😂</p>
+        <div class="rating-container">
+            <button onclick="rateJoke(1)">😂</button>
+            <button onclick="rateJoke(2)">😊</button>
+            <button onclick="rateJoke(3)">😐</button>
+            <button onclick="rateJoke(4)">😒</button>
+            <button onclick="rateJoke(5)">😠</button>
+        </div>
+    </div>
+    <button id="joke-button">Klikni ma!</button>
 </div>
-<button id="joke-button">Klikni ma!</button>
-
 
 </html>
 

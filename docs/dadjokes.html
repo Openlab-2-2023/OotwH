@@ -81,7 +81,29 @@ button:hover {
     font-size: 18px;
     min-height: 40px;
 }
->>>>>>> 0be0b27e6cf5913f03574b15a673813d4a9ffef3
+
+
+
+
+
+
+
+        .joke-text {
+            margin-top: 20px;
+            font-size: 18px;
+            min-height: 40px;
+        }
+        .rating-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .rating-container button {
+            margin: 0 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
     </style>
     <script src="script1.js"></script>
 </head>
@@ -102,18 +124,19 @@ button:hover {
 
 
 
-<div id="joke-container">
-    <p id="joke">Kliknite na tlačidko, ak ste pripravený sa zasmiať😂</p>
-
-
+<div class="container">
+    <div id="joke-container" class="joke-section">
+        <p id="joke">Kliknite na tlačidlo na čierny humor😂</p>
+        <div class="rating-container">
+            <button onclick="rateJoke(1)">😂</button>
+            <button onclick="rateJoke(2)">😊</button>
+            <button onclick="rateJoke(3)">😐</button>
+            <button onclick="rateJoke(4)">😒</button>
+            <button onclick="rateJoke(5)">😠</button>
+        </div>
+    </div>
+    <button id="joke-button">Klikni ma!</button>
 </div>
-<button id="joke-button">Klikni ma!</button>
-
-
-
-
-</div>
-
 </html>
 
 
