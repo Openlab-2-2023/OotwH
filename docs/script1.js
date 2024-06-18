@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     ];
 
+    
     const jokeContainer = document.getElementById('joke');
     const jokeButton = document.getElementById('joke-button');
 

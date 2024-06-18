@@ -81,6 +81,7 @@ body {
     border-width: 10px;
     text-align: center;
     margin-left: 500px;
+    overflow-x: scroll;
     
     
   }
@@ -102,11 +103,4 @@ body {
     background-color: #044c98;
     text-align: center;
   }
-  
-  
-  
-
-  .rating {
-    font-size: 1.2em;
-    margin: 0 10px;
-}
+  //////////////////////////////
